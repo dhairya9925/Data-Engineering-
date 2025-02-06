@@ -40,5 +40,7 @@ class BookspiderSpider(scrapy.Spider):
                 "duration": duration,
                 "rating": rating,
                 "link": link,
-            }
+            }  
+
+            next_page = link
         
